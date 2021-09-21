@@ -1,0 +1,23 @@
+// inPlace O(n^2 log n) | Space O(1)
+// standard O(n log n) | Space O(n) <-- A lot faster
+/*
+
+Slide 1 Intro to code
+analysis of S : time and keyComp
+analysis of n? : time and keyComp
+        
+3 5 7 8 4 6 7 9
+3 5 7 8 | 4 6 7 9
+3 5 | 7 8 | 4 6 | 7 9
+0   1   2   3   4   5   6   7
+3 | 5 | 7 | 8 | 4 | 6 | 7 | 9
+0 1   2 3   4 5   6 7
+3 5 | 7 8 | 4 6 | 7 9
+0 1 2 3   4 5 6 7
+3 5 7 8 | 4 6 7 9
+0 1 2 3 4 5      
+3 4 5 6 7 7 8 9
+        
+Space O(n/2) O(n log n)
+// Queue 
+*/
